@@ -1,0 +1,14 @@
+{
+  "name": "EVENTOEMS",
+  "version": "1.0.0",
+  "description": "Event management system",
+  "private":true,
+  "scripts": {
+    "start": "concurrently \"npm run start:client\" \"npm run start:api\"",
+    "start:client": "cd client && npm start",
+    "start:api": "cd api && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -56,7 +56,7 @@ export default function Header() {
       <header className='flex py-2 px-6 sm:px-6 justify-between place-items-center'>
           
           <Link to={'/'} className="flex item-center ">
-            <img src="../src/assets/logo.png" alt="" className='w-26 h-9'/>
+            <img src="../src/assets/logo.png" alt="" className='w-30 h-12'/>
           </Link>
           <div  className='flex bg-white rounded py-2.5 px-4 w-1/3 gap-4 items-center shadow-md shadow-gray-200'>
             
@@ -132,15 +132,6 @@ export default function Header() {
             </Link>
           </div>
           
-
-          <div>
-            <div className='flex flex-col place-items-center py-1 px-3 rounded cursor-pointer hover:text-primarydark hover:bg-white hover:shadow-sm shadow-gray-200 hover:transition-shadow duration-1500'>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 py-1">
-                <path fillRule="evenodd" d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z" clipRule="evenodd" />
-              </svg>
-          
-            </div>
-          </div>
 
         {/* -------------------IF user is Logged DO this Main-------------------- */}
         {!!user &&(

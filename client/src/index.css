@@ -41,3 +41,7 @@ input.input-et{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.bg-red {
+  background-color: #e0483f;
+}
